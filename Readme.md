@@ -23,3 +23,14 @@ brew install watchman
 3. install Expo Go app at iphone or pad
 and then create Account 
 
+## Initializin  bOOKbOOk
+```
+# create project named(my-app)
+expo init my-app 
+
+# navigate to the project directory
+cd my-app
+```
+
+
+
