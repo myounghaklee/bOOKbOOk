@@ -29,8 +29,15 @@ and then create Account
 expo init my-app 
 
 # navigate to the project directory
+
 cd my-app
 ```
 
+## Start project
+move to project , and then typing
+```
+npm start
+```
+you can see the QRcode to start app at expo 
 
 
