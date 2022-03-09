@@ -42,3 +42,34 @@ you can see the QRcode to start app at expo go
 if you want to run the simulator at expo, your Desktop and ios phone use same wi-fi
 
 
+## About RN
+### StyleSheet.create 
+object생성에 사용된다 
+````
+StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    
+  },
+  text: {
+    fontSize:100,    
+  },
+});
+````
+이처럼 객체로 사용하는 이유는 자동완성기능을 제공하기 때문이다. create를 사용하지않고 아래처럼 사용해도 무관한다 
+```
+container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    
+  },
+  text: {
+    fontSize:100,    
+  },
+});
+```
