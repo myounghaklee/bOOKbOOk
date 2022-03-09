@@ -38,6 +38,7 @@ move to project , and then typing
 ```
 npm start
 ```
-you can see the QRcode to start app at expo 
+you can see the QRcode to start app at expo go
+if you want to run the simulator at expo, your Desktop and ios phone use same wi-fi
 
 
