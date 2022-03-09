@@ -19,6 +19,6 @@ const styles = StyleSheet.create({
     
   },
   text: {
-    fontSize:100,
+    fontSize:100,    
   },
 });

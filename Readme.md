@@ -73,3 +73,12 @@ container: {
   },
 });
 ```
+
+### Necessary
+- RN can't use <div>. you must use View tag and import view
+```
+import {StyleSheet, Text, View} from "react-native"
+```
+
+- All text has to be in text component.
+we can use <p>, <span> like webHtml.
