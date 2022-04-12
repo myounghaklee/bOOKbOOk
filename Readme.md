@@ -85,3 +85,8 @@ we can't use <p>, <span> like webHtml.
 
 - `navigation components` no longer available
 
+### Component vs API
+- component : something you will render on the screen
+  - ex : view, text
+- API : js code. we can communicating with OS using js code.
+  - ex : Vibration ( vibrate device)
