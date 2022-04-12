@@ -82,3 +82,6 @@ import {StyleSheet, Text, View} from "react-native"
 
 - All text has to be in text component.
 we can't use <p>, <span> like webHtml.
+
+- `navigation components` no longer available
+
