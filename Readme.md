@@ -1,5 +1,5 @@
 # All aboud React Native FrameWork
-
+reference : https://reactnative.dev/docs/activityindicator
 ## What we to do?
 we make a hybrid Application.
 In order to create Android and iOS apps, many things must be installed to develop them, but we will develop them using expo.
@@ -81,4 +81,4 @@ import {StyleSheet, Text, View} from "react-native"
 ```
 
 - All text has to be in text component.
-we can use <p>, <span> like webHtml.
+we can't use <p>, <span> like webHtml.
