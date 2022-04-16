@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
 });
 
 export default App;
-````
+```
 Vibration code
 
 ## Layout System
