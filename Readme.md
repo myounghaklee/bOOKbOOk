@@ -90,7 +90,8 @@ we can't use <p>, <span> like webHtml.
   - ex : view, text
 - API : js code. we can communicating with OS using js code.
   - ex : Vibration ( vibrate device)
-  ```
+
+```
   import React from "react";
 import { Button, Platform, Text, Vibration, View, SafeAreaView, StyleSheet } from "react-native";
 
