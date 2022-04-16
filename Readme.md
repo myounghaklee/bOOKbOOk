@@ -69,7 +69,7 @@ container: {
     
   },
   text: {
-    fontSize:100,    
+    fontSize:100,
   },
 });
 ```
@@ -177,3 +177,5 @@ const styles = StyleSheet.create({
 export default App;
 ````
 Vibration code
+
+## Layout System
