@@ -2,14 +2,14 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View ,Text, StyleSheet, ScrollView, Dimensions} from "react-native";
 
-const {height, width } = Dimensions.get("window");
+const {height:SCREEN_HEIGHT, width:SCREEN_WIDTH } = Dimensions.get("window");
 export default function App() {
   return (
     <View style={style.container}>
       <View style={style.city}>
         <Text style={style.cityName}>Seoul</Text>
       </View>
-      <ScrollView horizontal contentContainerStyle={style.weather}>
+      <ScrollView pagingEnabled horizontal contentContainerStyle={style.weather}>
         <View style={style.day}>
           <Text style={style.temp}>27</Text>
           <Text style={style.description}>Sunny</Text>
@@ -48,10 +48,11 @@ const style = StyleSheet.create({
     fontWeight:"500",
   },
   weather:{  
-    backgroundColor:"red" ,
+     
   },
 
   day:{
+    width:SCREEN_WIDTH,
     alignItems : "center",
   },
   temp:{

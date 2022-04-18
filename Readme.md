@@ -187,3 +187,16 @@ Vibration code
 ```
 <View style={{ flexDirection: "Row" }}>
 ```
+### ScrollView
+If you just use `View`Component, user can't scroll the screen at mobile.
+- import Scrollview from `react-native``
+- use <ScrollView> instead of <View>
+- if you want to use any CSS, add contentContainerStyle props
+```
+ <ScrollView pagingEnabled horizontal contentContainerStyle={style.weather}>
+        <View style={style.day}>
+          <Text style={style.temp}>27</Text>
+          <Text style={style.description}>Sunny</Text>
+        </View>
+```
+
