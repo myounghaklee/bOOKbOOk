@@ -3,11 +3,11 @@ import { View } from "react-native";
 
 export default function App() {
   return (
-    <View style={{ flexDirection: "Row" }}>
+    <View style={{flex:1 }}>
       <View>
-        <View style={{ width: 100, height: 100, backgroundColor: "tomato" }}></View>
-        <View style={{ width: 100, height: 100, backgroundColor: "skyblue" }}></View>
-        <View style={{ width: 100, height: 100, backgroundColor: "orange" }}></View>
+        <View style={{ flex : 1, backgroundColor: "tomato" }}></View>
+        <View style={{ flex : 1.5, backgroundColor: "skyblue" }}></View>
+        <View style={{ flex : 1, backgroundColor: "orange" }}></View>
       </View>
     </View>
   );

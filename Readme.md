@@ -184,3 +184,6 @@ Vibration code
 - mobile : default value is `Column`
 - web: default value is `Row`
 - if overflow exist, you can't scroll the screen to watch the something
+```
+<View style={{ flexDirection: "Row" }}>
+```
