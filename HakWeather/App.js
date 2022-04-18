@@ -5,10 +5,11 @@ import { View ,Text, StyleSheet} from "react-native";
 export default function App() {
   return (
     <View style={style.container}>
-      <View>
+      <View style={style.city}>
         <Text>Seoul</Text>
       </View>
-
+      <View style={style.weather}></View>
+        
     </View>
   );
 }
@@ -22,7 +23,7 @@ const style = StyleSheet.create({
     backgroundColor :"lemonchiffon"
   },
   weather:{
-    flex: 1, 
+    flex: 3, 
     backgroundColor:"lightskyblue"
   },
 });
