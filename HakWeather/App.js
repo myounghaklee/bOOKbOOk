@@ -22,10 +22,10 @@ export default function App() {
 
 const style = StyleSheet.create({
   container:{
-    flex:1, backgroundColor:"aliceblue"
+    flex:1, backgroundColor:"lemonchiffon"
   },
   city:{
-    flex : 1, 
+    flex : 1.2, 
     backgroundColor :"lemonchiffon",
     justifyContent:"center",
     alignItems:"center",
@@ -36,7 +36,7 @@ const style = StyleSheet.create({
   },
   weather:{
     flex: 3, 
-    backgroundColor:"lightskyblue",
+    
   },
   day:{
     flex :1,
